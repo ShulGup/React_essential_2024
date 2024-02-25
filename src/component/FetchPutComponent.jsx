@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { postData, putData } from "./http";
 import { ErrorComponent } from "./ErrorComponent";
 
 const PutComponent = () => {
   const [data, setData] = useState([]);
-  const [loading, setLoading] = useState(true);
+  // const [loading, setLoading] = useState(true);
   const [error, setError] = useState();
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");

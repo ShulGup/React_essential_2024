@@ -8,7 +8,8 @@ export function counterReducer(state, action) {
       return { count: state.count - 1 };
     case "RESET":
       return { count: 0 };
-      Default: return state;
+    default:
+      return state;
   }
 }
 

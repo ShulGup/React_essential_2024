@@ -1,5 +1,5 @@
 import React from "react";
-import { Table_Display } from "./Table";
+import { TableDisplay } from "./Table";
 import DropdownSelect from "./DropDown";
 
 const Input_project = () => {
@@ -73,7 +73,7 @@ const Input_project = () => {
         <button onClick={handleReset}>Reset</button>
         <button type="submit">Submit</button>
       </form>
-      <Table_Display data={data} />
+      <TableDisplay data={data} />
       <p>{displayOption}</p>
       <hr />
       <h1>Call back function(child to parent)</h1>

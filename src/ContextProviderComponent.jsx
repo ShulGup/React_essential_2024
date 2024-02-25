@@ -5,7 +5,7 @@ import AppTheme from "./ToggleTheme/AppTheme";
 import CounterReducerApp from "./CounterReducer/CounterReducerApp";
 import Input_project from "./component/Input_project";
 import { AddButton } from "./component/AddButton";
-import { Table_Display } from "./component/Table";
+import { TableDisplay } from "./component/Table";
 import GetComponent from "./component/FetchGetComponent";
 import PostComponent from "./component/FetchPostComponent";
 import PutComponent from "./component/FetchPutComponent";
@@ -65,7 +65,7 @@ const ContextProviderComponent = () => {
           by using useState and callBack
         </h1>
         <AddButton OnButtonAdd={OnAddChange} />
-        <Table_Display data={data} />
+        <TableDisplay data={data} />
         <hr />
         <h1>Input Project using useState</h1>
         <Input_project />

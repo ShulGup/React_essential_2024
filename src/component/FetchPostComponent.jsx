@@ -34,7 +34,7 @@ const PostComponent = () => {
 
     // Fetch data when the component mounts
     fetchDataAsync();
-  }, []); // Empty dependency array means this effect runs once on mount
+  }, [data, title, description]); // Empty dependency array means this effect runs once on mount
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -79,7 +79,7 @@ const PostComponent = () => {
             data-testid="description"
             onChange={(e) => setDescription(e.target.value)}
           />
-          <button role="button" type="submit" disabled={!handleDisable}>
+          <button type="submit" disabled={!handleDisable}>
             Submit
           </button>
         </form>

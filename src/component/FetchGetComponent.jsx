@@ -33,9 +33,8 @@ const GetComponent = () => {
         <p>Loading...</p>
       ) : (
         <ul>
-          {/* Render your data here */}
           {data.map((data) => (
-            <li key={data.id} role="listitem">
+            <li key={data.id}>
               <h3>{data.title}</h3>
               <p>{data.body}</p>
             </li>

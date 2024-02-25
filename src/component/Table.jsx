@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Table_Display = ({ data }) => {
+export const TableDisplay = ({ data }) => {
   return (
     <div>
       <table>

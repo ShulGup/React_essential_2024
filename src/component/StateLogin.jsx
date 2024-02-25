@@ -1,12 +1,7 @@
 import React from "react";
 import InputComponent from "./InputComponent";
 import useInput from "./hooks/useInput";
-import {
-  isEmail,
-  isNotEmpty,
-  hasMinLength,
-  isEqualToOtherValue,
-} from "./utils/validation";
+import { isEmail, isNotEmpty, hasMinLength } from "./utils/validation";
 
 const StateLogin = () => {
   const {
