@@ -2,7 +2,7 @@ import React from "react";
 import { TableDisplay } from "./Table";
 import DropdownSelect from "./DropDown";
 
-const Input_project = () => {
+const InputProject = () => {
   const initialState = {
     firstname: "Shulbhi",
     age: "25",
@@ -82,4 +82,4 @@ const Input_project = () => {
   );
 };
 
-export default Input_project;
+export default InputProject;

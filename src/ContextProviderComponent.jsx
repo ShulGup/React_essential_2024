@@ -3,7 +3,7 @@ import { TimerApp } from "./component/Timer";
 import CounterContext from "./store/CounterContext";
 import AppTheme from "./ToggleTheme/AppTheme";
 import CounterReducerApp from "./CounterReducer/CounterReducerApp";
-import Input_project from "./component/Input_project";
+import InputProject from "./component/InputProject";
 import { AddButton } from "./component/AddButton";
 import { TableDisplay } from "./component/Table";
 import GetComponent from "./component/FetchGetComponent";
@@ -68,7 +68,7 @@ const ContextProviderComponent = () => {
         <TableDisplay data={data} />
         <hr />
         <h1>Input Project using useState</h1>
-        <Input_project />
+        <InputProject />
         <hr />
         <h1>Counter App using reducer</h1>
         <CounterReducerApp />
