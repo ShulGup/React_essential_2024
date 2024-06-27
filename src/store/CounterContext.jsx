@@ -1,7 +1,7 @@
 import { createContext } from "react";
 
 const CounterContext = createContext({
-  total: 10,
+  total: 20,
 });
 
 export default CounterContext;
