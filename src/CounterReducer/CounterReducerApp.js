@@ -3,7 +3,7 @@ import React from "react";
 export function counterReducer(state, action) {
   switch (action.type) {
     case "INCREMENT":
-      return { count: state.count + 1 };
+      return { count: state.count + 10 };
     case "DECREMENT":
       return { count: state.count - 1 };
     case "RESET":

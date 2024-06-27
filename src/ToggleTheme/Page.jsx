@@ -10,7 +10,7 @@ export default function Page() {
   return (
     <div id="app" className={themeCtx.theme}>
       <Header />
-
+      <h1>Header</h1>
       <article>
         <h2>React Course</h2>
         <p>
