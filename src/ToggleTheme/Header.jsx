@@ -7,7 +7,7 @@ export default function Header() {
 
   return (
     <header>
-      <h1>Demo Website</h1>
+      <h1>Demo Website Page</h1>
       <button onClick={themeCtx.toggleTheme}>Toggle Theme</button>
     </header>
   );
