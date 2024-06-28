@@ -12,7 +12,7 @@ export default function Page() {
       <Header />
       <h1>Header</h1>
       <article>
-        <h2>React Course</h2>
+        <h2>React Course-2</h2>
         <p>
           A course that teaches you React from the ground up and in great depth!
         </p>
